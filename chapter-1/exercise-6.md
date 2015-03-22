@@ -40,4 +40,4 @@ The problem lies with the applicative-order evaluation of ```new-if```. This doe
 
 ## Notes
 
-According to the solutions page this should lead to an infinite loop given we keep evaluating the else clause before we get inside the ```new-if``` procedure.
+According to the solutions page this should lead to an infinite loop given we keep evaluating the ```else-clause``` before we get inside the ```new-if``` procedure.
