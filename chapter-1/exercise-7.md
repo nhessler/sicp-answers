@@ -22,7 +22,6 @@ Exercise 1.7
                  x)))
 
 (define (sqrt x) (sqrt-iter 1.0 x))
-
 ```
 
 
@@ -73,6 +72,7 @@ The recommended change to ```good-enough?``` and functions that use it.
 ```
 
 For small numbers this works out much better as it allows us to get at a square root based on a percentage of the original number. For large numbers this ends up not having enough fidelity and can lead to sqrts that are not really exact at all.
+
 
 ## Notes
 
