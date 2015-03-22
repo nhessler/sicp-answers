@@ -25,7 +25,7 @@ What behavior will Ben observe with an interpreter that uses applicative-order e
 
 ## Answer
 
-The definition of ```p``` is an infinite loop since all it does is call itself. defining this is fine, but we don't want it to be evaluated as it will never kick out. For applicative-order evaluation we'll get stuck in the infinite loop since the arguments are evaluated before they are passed to to ```test```. In normal-order evaluation we should get back ```0```. This is first due to the normal-order evaluation passing along the parameters ```0``` and ```(p)``` to the ```if``` replacing the ```x``` and ```y`` respectively without evaluating them. Next, the ```if``` will evaluate the predicate statement which returns ````#t``` and only evaluates the first expression returning ```0```.
+The definition of ```p``` is an infinite loop since all it does is call itself. defining this is fine, but we don't want it to be evaluated as it will never kick out. For applicative-order evaluation we'll get stuck in the infinite loop since the arguments are evaluated before they are passed to to ```test```. In normal-order evaluation we should get back ```0```. This is first due to the normal-order evaluation passing along the parameters ```0``` and ```(p)``` to the ```if``` replacing the ```x``` and ```y``` respectively without evaluating them. Next, the ```if``` will evaluate the predicate statement which returns ````#t``` and only evaluates the first expression returning ```0```.
 
 
 ## Notes
