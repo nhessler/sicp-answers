@@ -70,3 +70,8 @@ Below is a sequence of expressions. What is the result printed by the interprete
 
 16
 ```
+
+
+## Notes
+
+output for define could be variable based on solutions site, but I essentially got the right answer. Also, for true and false it appears that the # is important so #t and #f. Otherwise I got them all correct.
