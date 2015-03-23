@@ -96,9 +96,11 @@ Give concise mathematical definitions for the functions computed by the procedur
 
 
 ```(f n)``` computes 2n
+
 ```(g n)``` computes 2^n
+
 ```(h n)``` computes 2^(n^2)
 
 ## Notes
 
-The consise mathematical definition of ```(h n)``` is actually 2^2^...(n times)
+The consise mathematical definition of ```(h n)``` is actually 2^2^...(n times). My definition works only for ```(h 4)```. had I checked the results of multiple numbers I would have been lead down the right path.

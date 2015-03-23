@@ -39,4 +39,4 @@ A function *f* is defined by the rule that *f(n) = n* if *n < 3* and *f(n) = f(n
 
 ## Notes
 
-No notes on this one. solutions page is down, but I verified my iterative process against the recursive process and I'm getting the same numbers so this should be good. May come back later once the site is up and add more notes.
+No notes on this one. solutions page is down, but I verified my iterative process against the recursive process and I'm getting the same numbers so this should be good. May come back later once the site is up and add more notes. I'd like to add that I found the iterative process by running the recursive several times and realizing it's like fibonacci, but instead of adding the last 2 it adds the last 3.
