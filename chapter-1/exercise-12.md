@@ -19,8 +19,8 @@ The numbers at the edge of the triangle are all 1, and each number inside the tr
 
 ```scheme
 (define (pt-element row col)
-  (cond ((or (< row col) (< col 1) (< row 1)) 0)
-        ((or (= row col) (= col 1)) 1)
+  (cond ((or (< row col) (< col 1) (< row 1)) 0) ;; outside the triangle return 0
+        ((or (= row col) (= col 1)) 1)           ;; edge of the triangle return 1
         (else (+ (pt-element (- row 1) (- col 1)) (pt-element (- row 1) col)))))
 ```
 
